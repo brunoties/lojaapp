@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" 
+	xmlns:gap="http://phonegap.com/ns/1.0" 
+	version="1.0.0.0"
+	id="info.lojapapp">
+	<name>Loja App</name>
+	<description>Menu da Loja App</description>
+	<author href="brsolutions.info" email="contato@brsolutions.info">BR Solutions</author>
+
+	<icon src="icon.png" />
+	<plugin name="cordova-plugin-splashscreen" />
+	<splash src="splash.png" />
+
+	<preference name="fullscreen" value="true" />
+
+	<preference name="permissions" value="none" />
+
+	<platform name="android" />
+</widget>
